@@ -1,0 +1,43 @@
+.text-center{
+    text-align: center;
+    
+  }
+  
+  .bg-red{
+    background: red;
+  }
+  
+  .mx-auto{
+    margin: auto;
+  }
+  
+  .flex{
+    display:flex;
+    margin-top: 3%;
+  } 
+  .flex-col{
+    flex-direction: column;
+  }
+  
+  .items-center{
+    align-items: center;
+  }
+
+  .text-center {
+    width: 291px;margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+   
+    background-color: red;
+    position: relative;
+    animation: myfirst 10s linear 2s infinite alternate;
+  }
+  
+  @keyframes myfirst {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:25%; top:0px;}
+    50%  {background-color:blue; left:50%; top:0px;}
+    75%  {background-color:green; left:75%; top:0px;}
+    100% {background-color:red; left:100%; top:0px;}
+  }
